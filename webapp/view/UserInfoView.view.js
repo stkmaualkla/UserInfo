@@ -17,7 +17,6 @@ sap.ui.jsview("com.UserInfo.view.UserInfoView", {
 			title: "{i18n>title}",
 			content: [
 				
-					
 					new sap.m.Label({wrapping: true,width: "100%",text: "JSON: {/json}"}),
 					new sap.m.Label({wrapping: false,width: "100%",text: "STATUS: {/status}"}),
 					new sap.m.Label({wrapping: false,width: "100%",text: "Name: {/name}"}),
