@@ -20,7 +20,7 @@
       "description": "SAPUI5 Test Resources"
     },
     {
-    	"path": "/sevices/userapi",
+    	"path": "/services/userapi",
     	"target": {
     		"type": "service",
     		"name": "userapi"
