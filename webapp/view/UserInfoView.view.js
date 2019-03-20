@@ -15,7 +15,17 @@ sap.ui.jsview("com.UserInfo.view.UserInfoView", {
 	createContent: function (oController) {
 		var oPage = new sap.m.Page({
 			title: "{i18n>title}",
-			content: []
+			content: [
+				
+				new sap.ui.commons.Label({wrapping: true,width: "100%",text: "JSON: {/json}"}),
+				new sap.ui.commons.Label({wrapping: false,width: "100%",text: "STATUS: {/status}"}),
+				new sap.ui.commons.Label({wrapping: false,width: "100%",text: "Name: {/name}"}),
+				new sap.ui.commons.Label({wrapping: false,width: "100%",text: "Firstname: {/firstname}"}),
+				new sap.ui.commons.Label({wrapping: false,width: "100%",text: "Lastname: {/lastname}"}),
+				new sap.ui.commons.Label({wrapping: false,width: "100%",text: "Displayname: {/displayname}"}),
+				new sap.ui.commons.Label({wrapping: false,width: "100%",text: "Email: {/email}"}) 
+				
+				]
 		});
 
 		var app = new sap.m.App("myApp", {
