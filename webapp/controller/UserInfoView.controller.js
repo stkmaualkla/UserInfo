@@ -6,6 +6,10 @@ sap.ui.define([
 	return Controller.extend("com.UserInfo.controller.UserInfoView", {
 		onInit: function () {
 
+		},
+		createContent: function()
+		{
+			
 		}
 	});
 });
