@@ -17,13 +17,13 @@ sap.ui.jsview("com.UserInfo.view.UserInfoView", {
 			title: "{i18n>title}",
 			content: [
 				
-				new sap.ui.commons.Label({wrapping: true,width: "100%",text: "JSON: {/json}"}),
-				new sap.ui.commons.Label({wrapping: false,width: "100%",text: "STATUS: {/status}"}),
-				new sap.ui.commons.Label({wrapping: false,width: "100%",text: "Name: {/name}"}),
-				new sap.ui.commons.Label({wrapping: false,width: "100%",text: "Firstname: {/firstname}"}),
-				new sap.ui.commons.Label({wrapping: false,width: "100%",text: "Lastname: {/lastname}"}),
-				new sap.ui.commons.Label({wrapping: false,width: "100%",text: "Displayname: {/displayname}"}),
-				new sap.ui.commons.Label({wrapping: false,width: "100%",text: "Email: {/email}"}) 
+					new sap.ui.commons.Label({wrapping: true,width: "100%",text: "JSON: {/json}"}),
+					new sap.ui.commons.Label({wrapping: false,width: "100%",text: "STATUS: {/status}"}),
+					new sap.ui.commons.Label({wrapping: false,width: "100%",text: "Name: {/name}"}),
+					new sap.ui.commons.Label({wrapping: false,width: "100%",text: "Firstname: {/firstName}"}),
+					new sap.ui.commons.Label({wrapping: false,width: "100%",text: "Lastname: {/lastName}"}),
+					new sap.ui.commons.Label({wrapping: false,width: "100%",text: "Displayname: {/displayName}"}),
+					new sap.ui.commons.Label({wrapping: false,width: "100%",text: "Email: {/email}"}) 
 				
 				]
 		});
