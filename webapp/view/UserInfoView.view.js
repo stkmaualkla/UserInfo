@@ -17,7 +17,7 @@ sap.ui.jsview("com.UserInfo.view.UserInfoView", {
 			title: "{i18n>title}",
 			content: [
 				
-					new sap.m.Label({wrapping: true,width: "100%",text: " TEST GETTING THE PERSONAL INFO FROM SAP.COM "}),
+					new sap.m.Label({wrapping: true,textalign:"center",width: "100%",text: " TEST GETTING THE PERSONAL INFO FROM SAP.COM "}),
 					new sap.m.Label({wrapping: true,width: "20%",text: "JSON:"}), 
 					new sap.m.Input({value: " {/json}",width: "80%"}),
 					new sap.m.Label({wrapping: false,width: "20%",text: "STATUS: "}),
