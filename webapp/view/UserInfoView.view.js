@@ -18,13 +18,20 @@ sap.ui.jsview("com.UserInfo.view.UserInfoView", {
 			content: [
 				
 					new sap.m.Label({wrapping: true,width: "100%",text: " TEST GETTING THE PERSONAL INFO FROM SAP.COM "}),
-					new sap.m.Label({wrapping: true,width: "100%",text: "JSON: {/json}"}),
-					new sap.m.Label({wrapping: false,width: "100%",text: "STATUS: {/status}"}),
-					new sap.m.Label({wrapping: false,width: "100%",text: "Name: {/name}"}),
-					new sap.m.Label({wrapping: false,width: "100%",text: "Firstname: {/firstName}"}),
-					new sap.m.Label({wrapping: false,width: "100%",text: "Lastname: {/lastName}"}),
-					new sap.m.Label({wrapping: false,width: "100%",text: "Displayname: {/displayName}"}),
-					new sap.m.Label({wrapping: false,width: "100%",text: "Email: {/email}"}) 
+					new sap.m.Label({wrapping: true,width: "20%",text: "JSON:"}), 
+					new sap.m.Input({value: " {/json}",width: "40%"}),
+					new sap.m.Label({wrapping: false,width: "20%",text: "STATUS: "}),
+					new sap.m.Input({value: " {/status}", width: "20%"}),
+					new sap.m.Label({wrapping: false,width: "20%",text: "Name: "}),
+					new sap.m.Input({value: " {/name}", width: "20%"}),
+					new sap.m.Label({wrapping: false,width: "20%",text: "Firstname: "}),
+					new sap.m.Input({value: " {/firstName}", width: "20%"}),
+					new sap.m.Label({wrapping: false,width: "20%",text: "Lastname: "}),
+					new sap.m.Input({ value: " {/lastName}", width: "20%"}),
+					new sap.m.Label({wrapping: false,width: "20%",text: "Displayname: "}),
+					new sap.m.Input({value: " {/displayName}", width: "20%"}),
+					new sap.m.Label({wrapping: false,width: "20%",text: "Email: "}), 
+					new sap.m.Input({ value: " {/email}", width: "20%"})
 				
 				]
 		});
